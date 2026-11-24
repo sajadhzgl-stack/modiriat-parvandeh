@@ -18,7 +18,7 @@ jobs:
         shell: bash
         run: |
           mkdir -p extracted
-          ZIP_FILE=$(find . -name 'ModiriatParvandeh_Android_CloudBuild.zip' -print -quit)
+          ZIP_FILE=$(find . -name ''ModiriatParvandeh_Android_v1.1_Branding.zip' -print -quit)
           if [ -z "$ZIP_FILE" ]; then
             echo "Project ZIP not found"
             exit 1
